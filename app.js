@@ -1,7 +1,7 @@
 projects = [
  {
   title: 'Calculator',
-  thumbnail: 'calculator.jpg',
+  thumbnail: 'calculator.JPG',
   link: 'https://mohamedmahgoub04.github.io/calculator/'
  },
  {
