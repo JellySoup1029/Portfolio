@@ -1,27 +1,27 @@
 projects = [
  {
   title: 'Calculator',
-  thumbnail: 'calculator.JPG',
+  thumbnail: 'calculator.jpg',
   link: 'https://mohamedmahgoub04.github.io/calculator/'
  },
  {
   title: 'Rock, paper, scissors.',
-  thumbnail: 'RPS.JPG',
+  thumbnail: 'RPS.jpg',
   link: 'https://mohamedmahgoub04.github.io/rock-paper-scissors/'
  },
  {
   title: 'Etch-a-sketch',
-  thumbnail: 'EAS.JPG',
+  thumbnail: 'EAS.jpg',
   link: 'https://mohamedmahgoub04.github.io/etch-a-sketch/'
  },
  {
   title: 'Mailchimp clone',
-  thumbnail: 'MC.JPG',
+  thumbnail: 'MC.jpg',
   link: 'https://mohamedmahgoub04.github.io/mailchimp-clone/'
  },
  {
   title: 'Library',
-  thumbnail: 'lib.JPG',
+  thumbnail: 'lib.jpg',
   link: 'https://mohamedmahgoub04.github.io/library/'
  }
 ]
