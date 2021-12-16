@@ -9,7 +9,7 @@
  --color-light: rgb(252, 130, 49);
 }
 *{
- /* border: 1px solid green; */
+ border: 1px solid green;
  font-family: montserrat;
  margin: 0;
  padding: 0;
@@ -57,7 +57,7 @@ body{
  display: flex;
  /* border: 1px solid red; */
  /* height: 100%; */
- text-align: right;
+ /* text-align: right; */
  margin: 0 50px;
  /* padding: 5px; */
 }
@@ -319,12 +319,13 @@ i:hover{
 }
 
 /* Media-queries */
-@media all and (max-width: 500px){
- nav{
-  /* justify-content: center; */
+@media all and (max-width: 600px){
+ #navbar{
+  width: 100%;
+  justify-content: center;
   text-align: center;
   align-items: center;
-
+  margin: auto;
  }
  #projects{
   width: 100%;
@@ -335,6 +336,19 @@ i:hover{
  } */
  .cursor{
   display: none;
+ }
+ #items{
+  margin: auto;
+  width: 90%;
+  justify-content: space-between;
+ }
+ .nav-links{
+  margin: auto;
+ }
+}
+@media all and (max-width: 350px){
+ #items{
+  width: 100%;
  }
 }
 
