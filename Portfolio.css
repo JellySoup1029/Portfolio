@@ -51,6 +51,7 @@ body{
  /* padding: 20px; */
  background-color: #464646;
  box-shadow: 0 0 40px 10px grey;
+ z-index: 999;
 }
 
 #items{
