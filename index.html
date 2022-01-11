@@ -3,54 +3,88 @@
 <head>
  <script src="https://kit.fontawesome.com/7f703e200a.js" crossorigin="anonymous"></script>
  <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Mohamed Mahgoub - Web Developer</title>
- <link rel="stylesheet" href="Portfolio.css">
+ <link rel="stylesheet" href="style.css">
+ <link rel="icon" href="logo.gif">
  <script src="app.js"></script>
+ <title>Mohamed Mahgpub - Web Developer</title>
 </head>
-
 <body>
+ <header id="nav-container">
+  <a id="logo-link" href="http://www.mohamedmahgoub.me"><img id="logo" src="logo.gif" alt="logo"></a>
+  <div id="navbar">
+   <a href="#skills" class="nav-item">Skills</a>
+   <a href="#work" class="nav-item">Work</a>
+   <a href="#contact" class="nav-item">Contact</a>
+  </div>
+ </header>
 
- <div id="navbar">
-  <div id="items">
-   <a href="#welcome-section" class="nav-links">Home</a>
-   <a href="#projects" class="nav-links">Work</a>
-   <a href="#contact" class="nav-links">Contact</a>
+ <section id="main-section">
+  <div id="main-content">
+   <h3>Hello, I am</h3>
+   <h2 id="mohamed">Mohamed Mahgoub</h2>
+   <h3><em>Front-end Web developer</em></h3>
+   <a href="#work" id="main-btn">View my work</a>
   </div>
- </div>
- <section id="welcome-section">
-  <!-- <h1 id="Mohamed-Mahgoub">Mohamed Mahgoub</h1> -->
-  <div id="txt">
-   <span id="sente" class="sent"></span>
-   <span class="cursor"></span>
-  </div>
-  <h1 id="Web-developer">Web developer</h1>
+  <img id="welcome" src="welcome.svg" alt="welcome">
  </section>
- <!-- <hr id="proj"> -->
- <section id="projects">
-  <h3>Here are some of my projects:</h3>
-  <hr>
-  <div class="project-tile">
-   <span class="holder"><a href="Nikola_Tesla.html" target="blank"><img src="N.JPG"></a><p>Tribute page</p></span>
-   <span class="holder"><a href="Survey.html" target="blank"><img src="S.JPG"></a><p>Survey form</p></span>
-   <span class="holder"><a href="Aquazoid.html" target="blank"><img src="A.JPG"></a><p>Product landing page</p></span>
-   <span class="holder"><a href="Techincal.html" target="blank"><img src="T.JPG"></a><p>Technical documentation page</p></span>
+
+ <section id="skills">
+  <h2 class="heading">Skills</h2>
+  <div id="cards">
+   <div class="card"><img src="html.png" alt="html-logo" class="badge"><h5 class="skill">HTML5</h5></div>
+   <div class="card"><img src="css.png" alt="css-logo" class="badge"><h5 class="skill">CSS3</h5></div>
+   <div class="card"><img src="js.png" alt="JavaScript-logo" class="badge"><h5 class="skill">JavaScript</h5></div>
   </div>
  </section>
+
+ <section id="work">
+  <h2 class="heading">Work</h2>
+  <div id="projects">
+  </div>
+ </section>
+ 
  <section id="contact">
-  <h1>Contact me!</h1>
-  <div id="social">
-   <a href="https://github.com/MohamedMahgoub04" class="social" id="profile-link"><i class="fab fa-github"></i></a>
-   <a href="https://www.linkedin.com/in/mohamed-mahgoub-3336771b3/" class="social"><i class="fab fa-linkedin"></i></a>
-   <a href="#" class="social"><i class="fas fa-envelope"></i></a>
-   <!-- <a href="#"><i class="fab fa-discord"></i></a> -->
-   <a href="https://stackoverflow.com/users/13936707/mohamedmahgoub1" class="social"><i class="fab fa-stack-overflow"></i></a>
-   <!-- <a href="https://www.freecodecamp.org/jellysoup1029" target="_blank">FreeCodeCamp</a> -->
-
-   
-
+  <h2 class="heading">Contact</h2>
+  <div id="contact-content">
+   <form id="grid">
+    <input type="text" name="" id="name" placeholder="Name">
+    <input type="email" name="" id="email" placeholder="Email">
+    <input type="text" name="" id="subject" placeholder="Subject">
+    <textarea name="" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+    <button>Submit</button>
+   </form>
+   <div id="social">
+    <div id="my-mail" class="social-divs">
+     <i id="mail" class="fas fa-envelope"></i>
+     <h3>m.mahgoub04@gmail.com</h3>
+    </div>
+    <div id="my-phone" class="social-divs">
+     <i id="phone" class="fas fa-phone-alt"></i>
+     <h3>+971563136377</h3>
+    </div>
+    <div id="github" class="social-divs">
+     <a href="https://github.com/MohamedMahgoub04" class="social" id="profile-link"><i class="fab fa-github"></i></a>
+     <h3>MohamedMahgoub04</h3>
+    </div>
+    <div id="linkedin" class="social-divs">
+     <a href="https://www.linkedin.com/in/mohamed-mahgoub-3336771b3/" class="social"><i class="fab fa-linkedin"></i></a>
+     <h3>Mohamed Mahgoub</h3>
+    </div>
+    <div id="stack-overflow" class="social-divs">
+     <a href="https://stackoverflow.com/users/13936707/mohamedmahgoub1" class="social"><i
+       class="fab fa-stack-overflow"></i></a>
+     <h3>MohamedMahgoub1</h3>
+    </div>
+    <!-- <div id="icons">
+     <a href="https://github.com/MohamedMahgoub04" class="social" id="profile-link"><i class="fab fa-github"></i></a>
+     <a href="https://www.linkedin.com/in/mohamed-mahgoub-3336771b3/" class="social"><i class="fab fa-linkedin"></i></a>
+     <a href="https://stackoverflow.com/users/13936707/mohamedmahgoub1" class="social"><i
+       class="fab fa-stack-overflow"></i></a>
+    </div> -->
+   </div>
   </div>
  </section>
-
 </body>
 </html>
