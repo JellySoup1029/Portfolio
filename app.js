@@ -26,18 +26,6 @@ projects = [
  }
 ]
 
-let i = 0
-let text = 'Mohamed Mahgoub'
-let speed = 175
-function type(){
- if (i < text.length){
-  document.querySelector('.sent').innerHTML += text.charAt(i)
-  i++
-  setTimeout(type, speed)
- }
- 
-}
-
 function setTarget(){
  document.querySelectorAll('.social').forEach(x => {
   x.setAttribute('target', 'blank')
@@ -45,7 +33,7 @@ function setTarget(){
 }
 
 function showProjects(){
- const tile = document.querySelector('.project-tile')
+ const tile = document.querySelector('#projects')
  for (project of projects){
   let span = document.createElement('span')
   
@@ -76,10 +64,11 @@ function showProjects(){
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+ 
  setTarget()
- type()
+ // type()
 // document.querySelector('.cursor').style.display = 'none'
- document.querySelector('.project-tile').innerHTML = ''
+ document.querySelector('#projects').innerHTML = ''
  showProjects()
 
 })
