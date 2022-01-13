@@ -68,11 +68,11 @@ section{
  width: 27em;
 }
 #logo-link{
- margin: auto 0;
+ /* margin: auto 0;
  max-width: 3.5em;
- max-height: 3.5em;
+ max-height: 3.5em; */
  width: auto;
- height: auto;
+ height: 100%;
 }
 #logo{
  width: 100%;
