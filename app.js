@@ -1,3 +1,5 @@
+
+
 projects = [
  {
   title: 'Calculator',
@@ -64,6 +66,29 @@ function showProjects(){
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+ const burger = document.querySelector('.burger')
+ const navbar = document.querySelector('.navbar')
+ const item = document.querySelectorAll('.nav-item')
+
+ burger.addEventListener('click', () => {
+  burger.classList.toggle('active')
+  navbar.classList.toggle('active')
+ })
+ item.forEach(x => {
+  x.onclick = () => {
+   burger.classList.toggle('active')
+   navbar.classList.toggle('active')
+  }
+ })
+
+ var typed = new Typed(".typing", {
+  strings: ['Mohamed Mahgoub'],
+  typeSpeed: 110,
+  backSpeed: 60,
+  showCursor: false,
+  // cursorChar: '+'
+  // loop: true
+ })
  
  setTarget()
  // type()
@@ -71,4 +96,9 @@ document.addEventListener('DOMContentLoaded', () => {
  document.querySelector('#projects').innerHTML = ''
  showProjects()
 
+ document.querySelectorAll('#skills').onclick = () => {
+  window.scrollBy(0, window.innerHeight / 10)
+ }
+
+ 
 })

@@ -5,36 +5,46 @@
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="Portfolio.css">
+ <link rel="stylesheet" href="style.css">
  <link rel="icon" href="logo.gif">
  <script src="app.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+    integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
  <title>Mohamed Mahgoub - Web Developer</title>
 </head>
 <body>
+
  <header id="nav-container">
   <a id="logo-link" href="http://www.mohamedmahgoub.me"><img id="logo" src="logo.gif" alt="logo"></a>
-  <div id="navbar">
+  <div class="navbar">
    <a href="#skills" class="nav-item">Skills</a>
    <a href="#work" class="nav-item">Work</a>
    <a href="#contact" class="nav-item">Contact</a>
+  </div>
+  <div class="burger">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
   </div>
  </header>
 
  <section id="main-section">
   <div id="main-content">
    <h3>Hello, I am</h3>
-   <h2 id="mohamed">Mohamed Mahgoub</h2>
-   <h3><em>Front-end Web developer</em></h3>
+   <h2 id="mohamed" class="typing"></h2>
+   <h3><em>Front-end web developer</em></h3>
    <a href="#work" id="main-btn">View my work</a>
   </div>
-  <img id="welcome" src="welcome.svg" alt="welcome">
+  <!-- <img id="welcome" src="welcome.svg" alt="welcome"> -->
+  <img id="pp" src="pp.gif" alt="">
  </section>
 
  <section id="skills">
   <h2 class="heading">Skills</h2>
   <div id="cards">
-   <div class="card"><img src="html.png" alt="html-logo" class="badge"><h5 class="skill">HTML5</h5></div>
-   <div class="card"><img src="css.png" alt="css-logo" class="badge"><h5 class="skill">CSS3</h5></div>
+   <div class="card"><img src="html.png" alt="html-logo" class="badge"><h5 class="skill">HTML</h5></div>
+   <div class="card"><img src="css.png" alt="css-logo" class="badge"><h5 class="skill">CSS</h5></div>
    <div class="card"><img src="js.png" alt="JavaScript-logo" class="badge"><h5 class="skill">JavaScript</h5></div>
   </div>
  </section>
@@ -53,7 +63,10 @@
     <input type="email" name="" id="email" placeholder="Email">
     <input type="text" name="" id="subject" placeholder="Subject">
     <textarea name="" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-    <button>Submit</button>
+    <button id="hello">
+      <span></span><span></span><span></span><span></span>
+      Submit
+    </button>
    </form>
    <div id="social">
     <div id="my-mail" class="social-divs">
@@ -86,5 +99,10 @@
    </div>
   </div>
  </section>
+ <footer>
+  
+  <p>Copyright &copy 2022 All Rights Reserved.</p>
+ </footer>
+ 
 </body>
 </html>
