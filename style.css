@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cardo&family=Lato&family=Merriweather&family=Montserrat&family=PT+Serif&family=Poppins&family=Raleway&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@300;400;500;700&family=Poppins:wght@300;500;600&display=swap');
 
 :root{
  --black: #1f1f1f;
@@ -32,9 +32,10 @@ body{
 }
 .heading{
  color: var(--gray);
- font-weight: 600;
+ font-weight: 400;
  font-size: 2.5em;
  font-family: poppins;
+ /* font-family: montserrat; */
 }
 section{
  display: flex;
@@ -85,6 +86,7 @@ section{
  color: var(--gray);
  text-decoration: none;
  font-family: poppins;
+ /* letter-spacing: 1px; */
 }
 .nav-item:hover{
  color: var(--main-light);
@@ -185,8 +187,9 @@ h3{
  width: 80%;
 }
 .skill{
- font-family: poppins;
+ font-family: montserrat;
  /* font-weight: 600; */
+ font-weight: 400;
  font-size: 2em;
  text-align: center;
 }
@@ -237,8 +240,8 @@ h3{
 .holder:hover > p::before{
  content: "<";
  color: var(--main-light);
- margin: 0 0.2em;
- font-family: poppins;
+ margin: 0 0.3em;
+ font-family: comfortaa;
  font-size: 0.8em;
  /* font-weight: 600; */
 }
@@ -246,8 +249,8 @@ h3{
  /* transition: 1s; */
  content: "/>";
  color: var(--main-light);
- margin: 0 0.2em;
- font-family: poppins;
+ margin: 0 0.3em;
+ font-family: comfortaa;
  font-size: 0.8em;
  /* font-weight: 600; */
 }
@@ -504,11 +507,14 @@ i:hover{
  }
  .social-divs h3{
   display: none;
+  margin: initial;
  }i{
-  margin: 0;
+  transition: none;
+  margin: initial;
  }
  i:hover{
-  margin-right: 0;
+  transition: none;
+  margin: initial;
  }
 }
 
