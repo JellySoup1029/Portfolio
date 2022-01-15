@@ -446,6 +446,12 @@ i:hover{
   padding: 0;
   margin: 1px 0;
  }
+ .nav-item::after{
+  display: none;
+ }
+ .nav-item:hover{
+  color: var(--gray);
+ }
 
  .burger{
   display: block;
@@ -560,6 +566,10 @@ i:hover{
   /* gap: initial; */
   /* gap: 0; */
  }
+ .card:hover{
+  box-shadow: none;
+  cursor: default;
+ }
  .badge{
   width: 30%;
   width: 80px;
@@ -576,6 +586,10 @@ i:hover{
   /* margin: 0 max(auto, 1em); */
   font-size: clamp(25px, 7.5vw, 33px);
   /* font-size: clamp(1em, 32px, 80px); */
+ }
+ 
+ p::before, p::after{
+  display: none; 
  }
 }
 
