@@ -544,20 +544,38 @@ i:hover{
 
  #cards{
   gap: 3em;
+  padding: 0;
  }
  .card{
   flex-direction: row;
   justify-content: space-between;
   padding: 0;
   height: auto;
-  width: 80vw;
-  gap: initial;
+  width: clamp;
+  width: 300px;
+  width: max(75%, 300px);
+  margin: 0 clamp(0.1em, 2em, 2em);
+  /* gap: max(1em); */
+  /* flex-shrink: 0; */
+  /* gap: initial; */
+  /* gap: 0; */
  }
  .badge{
   width: 30%;
+  width: 80px;
+  width: max(80px, 30%);
+  width: clamp(70px, 30%, 100px);
  }
  .skill{
+  /* padding-left: max(0.5em);
+  padding-right: max(0.5em); */
+  /* height: 100%; */
+  flex-shrink: 0;
+  width: auto;
   margin: auto;
+  /* margin: 0 max(auto, 1em); */
+  font-size: clamp(25px, 7.5vw, 33px);
+  /* font-size: clamp(1em, 32px, 80px); */
  }
 }
 
