@@ -525,6 +525,7 @@ i:hover{
  }
  .social-divs i{
   font-size: 3em;
+  margin-right: 0;
  }
  #my-phone{
   display: none;
@@ -539,6 +540,24 @@ i:hover{
  i:hover{
   transition: none;
   margin: initial;
+ }
+
+ #cards{
+  gap: 3em;
+ }
+ .card{
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  height: auto;
+  width: 80vw;
+  gap: initial;
+ }
+ .badge{
+  width: 30%;
+ }
+ .skill{
+  margin: auto;
  }
 }
 
