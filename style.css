@@ -22,6 +22,11 @@
  outline: none;
 }
 
+
+#welcome{
+ width: 20em;
+ /* margin-left: 5em; */
+}
 html{
  scroll-behavior: smooth;
 }
@@ -137,7 +142,12 @@ section{
  height: 90vh;
  padding: 10em 4em;
  margin-top: 10vh;
+ /* gap: 3.5em; */
  /* position: relative; */
+}
+
+#welcome{
+ width: 30em;
 }
 #main-content{
  display: flex;
@@ -156,9 +166,9 @@ h3{
  font-size: 1.5em;
  /* font-family: monospace; */
 }
-#welcome{
+/* #welcome{
  width: 30em;
-}
+} */
 
 /* Skills */
 #skills{
@@ -233,6 +243,7 @@ h3{
  width: 90%;
  justify-content: space-around;
  row-gap: 3em;
+ column-gap: max(1.5em);
 }
 .holder{
  display: flex;
@@ -485,7 +496,7 @@ i:hover{
  textarea{
   width: 100%;
  }
- #pp{
+ #pp, #welcome{
   display: none;
   /* position: absolute; */
   /* z-index: -999; */
@@ -495,9 +506,9 @@ i:hover{
   width: 100%;
   align-items: center;
  }
- #welcome{
+ /* #welcome{
   display: none;
- }
+ } */
  h3, em{
   text-align: center;
  }
