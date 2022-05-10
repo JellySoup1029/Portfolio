@@ -237,13 +237,15 @@ h3{
  color: var(--black);
 }
 #projects{
- display: flex;
+ /* display: flex;
  flex-direction: row;
- flex-wrap: wrap;
+ flex-wrap: wrap; */
  width: 90%;
  justify-content: space-around;
  row-gap: 3em;
  column-gap: max(1.5em);
+ display: grid;
+ grid-template: 1fr / repeat(auto-fit, 312px);
 }
 .holder{
  display: flex;
@@ -425,7 +427,7 @@ i:hover{
 }
 
 /* Media queries */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
  body{
   border: none;
   overflow-x: hidden;

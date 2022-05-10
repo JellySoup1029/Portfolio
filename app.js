@@ -3,29 +3,45 @@
 projects = [
  {
   title: 'Calculator',
-  thumbnail: 'calculator.JPG',
+  thumbnail: 'calc.png',
   link: 'https://mohamedmahgoub04.github.io/calculator/'
  },
  {
   title: 'Rock, paper, scissors.',
-  thumbnail: 'RPS.jpg',
+  thumbnail: 'rps.png',
   link: 'https://mohamedmahgoub04.github.io/rock-paper-scissors/'
  },
  {
   title: 'Etch-a-sketch',
-  thumbnail: 'EAS.jpg',
+  thumbnail: 'etch.png',
   link: 'https://mohamedmahgoub04.github.io/etch-a-sketch/'
  },
- {
-  title: 'Mailchimp clone',
-  thumbnail: 'MC.jpg',
-  link: 'https://mohamedmahgoub04.github.io/mailchimp-clone/'
- },
+ // {
+ //  title: 'Mailchimp clone',
+ //  thumbnail: 'MC.jpg',
+ //  link: 'https://mohamedmahgoub04.github.io/mailchimp-clone/'
+ // },
  {
   title: 'Library',
-  thumbnail: 'lib.jpg',
+  thumbnail: 'library.png',
   link: 'https://mohamedmahgoub04.github.io/library/'
- }
+ },
+ {
+  title: 'Tic-Tac-Toe',
+  thumbnail: 'ttt.png',
+  link: 'https://mohamedmahgoub04.github.io/Tic-Tac-Toe/'
+ },
+ {
+  title: 'Admin Dashboard',
+  thumbnail: 'admin.png',
+  link: 'https://mohamedmahgoub04.github.io/admin-dashboard/'
+ },
+ {
+  title: 'Sign-up form',
+  thumbnail: 'form.png',
+  link: 'https://mohamedmahgoub04.github.io/admin-dashboard/'
+ },
+ 
 ]
 
 function setTarget(){
