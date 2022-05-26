@@ -41,6 +41,11 @@ projects = [
   thumbnail: 'form.png',
   link: 'https://mohamedmahgoub04.github.io/admin-dashboard/'
  },
+ {
+  title: 'Restaurant page',
+  thumbnail: 'restaurant.png',
+  link: 'https://mohamedmahgoub04.github.io/restaurant-page/'
+ }
  
 ]
 
